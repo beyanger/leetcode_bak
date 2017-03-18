@@ -4,8 +4,6 @@ SOURCE = $(wildcard *.cpp)
 OBJS = $(patsubst %.cpp, %.o, $(SOURCE))
 
 CXX = g++
-
-
 RM = rm -f
 
 CPPFLAGS += -std=c++11
@@ -20,10 +18,9 @@ $(TARGET):$(OBJS)
 	$(CXX) $(CPPFLAGS) -o $@ $^
 
 sinclude $(SOURCE:.cpp=.d)
-	      
+
 %.o:%.cpp
 	$(CXX) $(CPPFLAGS) -c $< -o $@  
-
 
 %.d:%.cpp
 	@set -e;\
