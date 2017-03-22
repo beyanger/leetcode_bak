@@ -480,7 +480,7 @@ void show_solved_item() {
 #include "S.h" /* 0431 */
 #include "S.h" /* 0432 */
 #include "S.h" /* 0433 */
-#include "S.h" /* 0434 */
+#include "S434.h" /* 0434 */
 #include "S.h" /* 0435 */
 #include "S.h" /* 0436 */
 #include "S.h" /* 0437 */
@@ -495,16 +495,16 @@ void show_solved_item() {
 #include "S.h" /* 0446 */
 #include "S.h" /* 0447 */
 #include "S.h" /* 0448 */
-#include "S.h" /* 0449 */
-#include "S.h" /* 0450 */
+#include "S449.h" /* 0449 */
+#include "S450.h" /* 0450 */
 #include "S.h" /* 0451 */
 #include "S.h" /* 0452 */
-#include "S.h" /* 0453 */
+#include "S453.h" /* 0453 */
 #include "S.h" /* 0454 */
 #include "S455.h" /* 0455 */
 #include "S.h" /* 0456 */
 #include "S.h" /* 0457 */
-#include "S.h" /* 0458 */
+#include "S458.h" /* 0458 */
 #include "S.h" /* 0459 */
 #include "S.h" /* 0460 */
 #include "S461.h" /* 0461 */
@@ -520,18 +520,18 @@ void show_solved_item() {
 #include "S.h" /* 0471 */
 #include "S.h" /* 0472 */
 #include "S.h" /* 0473 */
-#include "S.h" /* 0474 */
+#include "S474.h" /* 0474 */
 #include "S.h" /* 0475 */
 #include "S476.h" /* 0476 */
 #include "S477.h" /* 0477 */
 #include "S.h" /* 0478 */
 #include "S.h" /* 0479 */
 #include "S.h" /* 0480 */
-#include "S.h" /* 0481 */
+#include "S481.h" /* 0481 */
 #include "S.h" /* 0482 */
 #include "S.h" /* 0483 */
 #include "S.h" /* 0484 */
-#include "S.h" /* 0485 */
+#include "S485.h" /* 0485 */
 #include "S.h" /* 0486 */
 #include "S.h" /* 0487 */
 #include "S.h" /* 0488 */
@@ -547,7 +547,7 @@ void show_solved_item() {
 #include "S498.h" /* 0498 */
 #include "S.h" /* 0499 */
 #include "S.h" /* 0500 */
-#include "S.h" /* 0501 */
+#include "S501.h" /* 0501 */
 #include "S.h" /* 0502 */
 #include "S.h" /* 0503 */
 #include "S.h" /* 0504 */
@@ -1508,7 +1508,7 @@ solution_t solution_vec[1024] = {
     S/*431*/::main      /* 0431 */,
     S/*432*/::main      /* 0432 */,
     S/*433*/::main      /* 0433 */,
-    S/*434*/::main      /* 0434 */,
+    S434::main      /* 0434 */,
     S/*435*/::main      /* 0435 */,
     S/*436*/::main      /* 0436 */,
     S/*437*/::main      /* 0437 */,
@@ -1523,16 +1523,16 @@ solution_t solution_vec[1024] = {
     S/*446*/::main      /* 0446 */,
     S/*447*/::main      /* 0447 */,
     S/*448*/::main      /* 0448 */,
-    S/*449*/::main      /* 0449 */,
-    S/*450*/::main      /* 0450 */,
+    S449::main      /* 0449 */,
+    S450::main      /* 0450 */,
     S/*451*/::main      /* 0451 */,
     S/*452*/::main      /* 0452 */,
-    S/*453*/::main      /* 0453 */,
+    S453::main      /* 0453 */,
     S/*454*/::main      /* 0454 */,
     S455::main      /* 0455 */,
     S/*456*/::main      /* 0456 */,
     S/*457*/::main      /* 0457 */,
-    S/*458*/::main      /* 0458 */,
+    S458::main      /* 0458 */,
     S/*459*/::main      /* 0459 */,
     S/*460*/::main      /* 0460 */,
     S461::main      /* 0461 */,
@@ -1548,18 +1548,18 @@ solution_t solution_vec[1024] = {
     S/*471*/::main      /* 0471 */,
     S/*472*/::main      /* 0472 */,
     S/*473*/::main      /* 0473 */,
-    S/*474*/::main      /* 0474 */,
+    S474::main      /* 0474 */,
     S/*475*/::main      /* 0475 */,
     S476::main      /* 0476 */,
     S477::main      /* 0477 */,
     S/*478*/::main      /* 0478 */,
     S/*479*/::main      /* 0479 */,
     S/*480*/::main      /* 0480 */,
-    S/*481*/::main      /* 0481 */,
+    S481::main      /* 0481 */,
     S/*482*/::main      /* 0482 */,
     S/*483*/::main      /* 0483 */,
     S/*484*/::main      /* 0484 */,
-    S/*485*/::main      /* 0485 */,
+    S485::main      /* 0485 */,
     S/*486*/::main      /* 0486 */,
     S/*487*/::main      /* 0487 */,
     S/*488*/::main      /* 0488 */,
@@ -1575,7 +1575,7 @@ solution_t solution_vec[1024] = {
     S498::main      /* 0498 */,
     S/*499*/::main      /* 0499 */,
     S/*500*/::main      /* 0500 */,
-    S/*501*/::main      /* 0501 */,
+    S501::main      /* 0501 */,
     S/*502*/::main      /* 0502 */,
     S/*503*/::main      /* 0503 */,
     S/*504*/::main      /* 0504 */,
