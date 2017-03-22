@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include <string.h>
 
 #include "S.h" /* 0 */
 
@@ -266,7 +267,7 @@ void show_solved_item() {
 #include "S.h" /* 0217 */
 #include "S.h" /* 0218 */
 #include "S.h" /* 0219 */
-#include "S.h" /* 0220 */
+#include "S220.h" /* 0220 */
 #include "S.h" /* 0221 */
 #include "S.h" /* 0222 */
 #include "S.h" /* 0223 */
@@ -1294,7 +1295,7 @@ solution_t solution_vec[1024] = {
     S/*217*/::main      /* 0217 */,
     S/*218*/::main      /* 0218 */,
     S/*219*/::main      /* 0219 */,
-    S/*220*/::main      /* 0220 */,
+    S220::main      /* 0220 */,
     S/*221*/::main      /* 0221 */,
     S/*222*/::main      /* 0222 */,
     S/*223*/::main      /* 0223 */,
