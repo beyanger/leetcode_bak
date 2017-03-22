@@ -1,3 +1,4 @@
+#include "S4.h"
 
 #include <unordered_map>
 #include <algorithm>

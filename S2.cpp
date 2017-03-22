@@ -1,3 +1,4 @@
+#include "S2.h"
 #include <vector>
 #include <iostream>
 #include <algorithm>

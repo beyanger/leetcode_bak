@@ -1,3 +1,4 @@
+#include "S3.h"
 #include <vector>
 #include <iostream>
 #include <algorithm>

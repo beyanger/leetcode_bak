@@ -1,3 +1,4 @@
+#include "S496.h"
 #include <vector>
 #include <iostream>
 #include <algorithm>
