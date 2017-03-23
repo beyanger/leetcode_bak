@@ -20,6 +20,7 @@ int main(int argc, char *argv[]);
 
 ccontent = '''
 
+#include "S%s.h"
 #include <vector>
 #include <algorithm>                
 #include <iostream>
@@ -43,7 +44,7 @@ int main(int argc, char *argv[]) {
 
 };
 
-'''%(sys.argv[1], sys.argv[1])
+'''%(sys.argv[1], sys.argv[1], sys.argv[1])
 
 
 def main():

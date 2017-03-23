@@ -44,6 +44,8 @@ echo "#endif" >> $hfile
 echo "" >> $hfile
 
 
+echo "" >> $cfile
+echo "#include \""$hfile"\"" >> $cfile
 echo "#include <vector>" >> $cfile
 echo "#include <algorithm>" >> $cfile
 echo "#include <iostream>" >> $cfile

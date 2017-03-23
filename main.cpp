@@ -590,7 +590,7 @@ void show_solved_item() {
 #include "S540.h" /* 0540 */
 #include "S.h" /* 0541 */
 #include "S.h" /* 0542 */
-#include "S.h" /* 0543 */
+#include "S543.h" /* 0543 */
 #include "S.h" /* 0544 */
 #include "S.h" /* 0545 */
 #include "S.h" /* 0546 */
@@ -1618,7 +1618,7 @@ solution_t solution_vec[1024] = {
     S540::main      /* 0540 */,
     S/*541*/::main      /* 0541 */,
     S/*542*/::main      /* 0542 */,
-    S/*543*/::main      /* 0543 */,
+    S543::main      /* 0543 */,
     S/*544*/::main      /* 0544 */,
     S/*545*/::main      /* 0545 */,
     S/*546*/::main      /* 0546 */,
