@@ -479,7 +479,7 @@ void show_solved_item() {
 #include "S.h" /* 0429 */
 #include "S.h" /* 0430 */
 #include "S.h" /* 0431 */
-#include "S.h" /* 0432 */
+#include "S432.h" /* 0432 */
 #include "S.h" /* 0433 */
 #include "S434.h" /* 0434 */
 #include "S.h" /* 0435 */
@@ -507,7 +507,7 @@ void show_solved_item() {
 #include "S.h" /* 0457 */
 #include "S458.h" /* 0458 */
 #include "S.h" /* 0459 */
-#include "S.h" /* 0460 */
+#include "S460.h" /* 0460 */
 #include "S461.h" /* 0461 */
 #include "S.h" /* 0462 */
 #include "S.h" /* 0463 */
@@ -515,12 +515,12 @@ void show_solved_item() {
 #include "S.h" /* 0465 */
 #include "S.h" /* 0466 */
 #include "S.h" /* 0467 */
-#include "S.h" /* 0468 */
+#include "S468.h" /* 0468 */
 #include "S.h" /* 0469 */
 #include "S.h" /* 0470 */
 #include "S.h" /* 0471 */
 #include "S.h" /* 0472 */
-#include "S.h" /* 0473 */
+#include "S473.h" /* 0473 */
 #include "S474.h" /* 0474 */
 #include "S.h" /* 0475 */
 #include "S476.h" /* 0476 */
@@ -1507,7 +1507,7 @@ solution_t solution_vec[1024] = {
     S/*429*/::main      /* 0429 */,
     S/*430*/::main      /* 0430 */,
     S/*431*/::main      /* 0431 */,
-    S/*432*/::main      /* 0432 */,
+    S432::main      /* 0432 */,
     S/*433*/::main      /* 0433 */,
     S434::main      /* 0434 */,
     S/*435*/::main      /* 0435 */,
@@ -1535,7 +1535,7 @@ solution_t solution_vec[1024] = {
     S/*457*/::main      /* 0457 */,
     S458::main      /* 0458 */,
     S/*459*/::main      /* 0459 */,
-    S/*460*/::main      /* 0460 */,
+    S460::main      /* 0460 */,
     S461::main      /* 0461 */,
     S/*462*/::main      /* 0462 */,
     S/*463*/::main      /* 0463 */,
@@ -1543,12 +1543,12 @@ solution_t solution_vec[1024] = {
     S/*465*/::main      /* 0465 */,
     S/*466*/::main      /* 0466 */,
     S/*467*/::main      /* 0467 */,
-    S/*468*/::main      /* 0468 */,
+    S468::main      /* 0468 */,
     S/*469*/::main      /* 0469 */,
     S/*470*/::main      /* 0470 */,
     S/*471*/::main      /* 0471 */,
     S/*472*/::main      /* 0472 */,
-    S/*473*/::main      /* 0473 */,
+    S473::main      /* 0473 */,
     S474::main      /* 0474 */,
     S/*475*/::main      /* 0475 */,
     S476::main      /* 0476 */,
