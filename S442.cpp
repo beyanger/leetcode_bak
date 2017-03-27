@@ -11,37 +11,27 @@ namespace S442 {
 
 class Solution {
 public: 
-	vector<int> findDuplicates(vector<int>& nums) {
-		vector<int> res;
-		int len = nums.size();
+    vector<int> findDuplicates(vector<int>& nums) {
+        vector<int> res;
+        int len = nums.size();
+        int n = nums.size() + 1;
 
-		for (int i = 0; i < len;) {
-			int pos = nums[i] - 1;
+        for (int i = 0; i < len; i++) {
+            int pos = nums[i]%n -1;
+            nums[pos] += n;
+        }
 
-			if (pos == i) {
-				i++;
-			} else {
-				if (nums[pos] != pos+1) {
-					int t = nums[pos];
-					nums[pos] = nums[i];
-					nums[i] = t;
-				} else {
-					res.push_back(++i);
-				}
-			}
-
-		}
-
-		return res;
-	}
+        for (int i = 0; i < len; i++) 
+            if (nums[i] > 2*n) res.push_back(i+1);
+        return res;
+    }
 
 };
 
 int main(int argc, char *argv[]) {
-	vector<int> x = {4,3,2,7,8,2,3,1};
-    Solution so; 
+    cout << "Question 442 is solved" << endl;
 
-	so.findDuplicates(x);
+    Solution so; 
 
     return 0;
 }
