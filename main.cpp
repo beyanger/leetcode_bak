@@ -489,13 +489,13 @@ void show_solved_item() {
 #include "S.h" /* 0439 */
 #include "S.h" /* 0440 */
 #include "S.h" /* 0441 */
-#include "S.h" /* 0442 */
+#include "S442.h" /* 0442 */
 #include "S.h" /* 0443 */
 #include "S.h" /* 0444 */
 #include "S445.h" /* 0445 */
 #include "S.h" /* 0446 */
 #include "S.h" /* 0447 */
-#include "S.h" /* 0448 */
+#include "S448.h" /* 0448 */
 #include "S449.h" /* 0449 */
 #include "S450.h" /* 0450 */
 #include "S.h" /* 0451 */
@@ -1517,13 +1517,13 @@ solution_t solution_vec[1024] = {
     S/*439*/::main      /* 0439 */,
     S/*440*/::main      /* 0440 */,
     S/*441*/::main      /* 0441 */,
-    S/*442*/::main      /* 0442 */,
+    S442::main      /* 0442 */,
     S/*443*/::main      /* 0443 */,
     S/*444*/::main      /* 0444 */,
     S445::main      /* 0445 */,
     S/*446*/::main      /* 0446 */,
     S/*447*/::main      /* 0447 */,
-    S/*448*/::main      /* 0448 */,
+    S448::main      /* 0448 */,
     S449::main      /* 0449 */,
     S450::main      /* 0450 */,
     S/*451*/::main      /* 0451 */,

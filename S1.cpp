@@ -12,17 +12,18 @@ class Solution {
 private:
     struct node {
         int p,v;
-	node(int _v, int _p) : v(_v), p(_p) {}
 	bool operator<(const node &o) const { return v < o.v; } 
     };
 
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
 	int nsize = nums.size();
-	vector<node> pvn(nsize, node(0, 0));
+	vector<node> pvn(nsize);
 
 	for (int i = 0; i < nsize; i++) {
-	    pvn[i] = node(nums[i], i);	
+		pvn[i].p = i;
+		pvn[i].v = nums[i];
+
 	}
 	
 	sort(pvn.begin(), pvn.end());

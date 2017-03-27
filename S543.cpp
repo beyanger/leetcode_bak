@@ -35,6 +35,8 @@ public:
 	}
 };
 
+
+
 int main(int argc, char *argv[]) {
     cout << "Question 543 is solved, please check source code!!!" << endl;
 
