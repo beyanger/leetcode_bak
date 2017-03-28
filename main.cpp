@@ -571,7 +571,7 @@ void show_solved_item() {
 #include "S.h" /* 0521 */
 #include "S.h" /* 0522 */
 #include "S.h" /* 0523 */
-#include "S.h" /* 0524 */
+#include "S524.h" /* 0524 */
 #include "S.h" /* 0525 */
 #include "S.h" /* 0526 */
 #include "S.h" /* 0527 */
@@ -584,7 +584,7 @@ void show_solved_item() {
 #include "S.h" /* 0534 */
 #include "S.h" /* 0535 */
 #include "S.h" /* 0536 */
-#include "S.h" /* 0537 */
+#include "S537.h" /* 0537 */
 #include "S538.h" /* 0538 */
 #include "S.h" /* 0539 */
 #include "S540.h" /* 0540 */
@@ -1599,7 +1599,7 @@ solution_t solution_vec[1024] = {
     S/*521*/::main      /* 0521 */,
     S/*522*/::main      /* 0522 */,
     S/*523*/::main      /* 0523 */,
-    S/*524*/::main      /* 0524 */,
+    S524::main      /* 0524 */,
     S/*525*/::main      /* 0525 */,
     S/*526*/::main      /* 0526 */,
     S/*527*/::main      /* 0527 */,
@@ -1612,7 +1612,7 @@ solution_t solution_vec[1024] = {
     S/*534*/::main      /* 0534 */,
     S/*535*/::main      /* 0535 */,
     S/*536*/::main      /* 0536 */,
-    S/*537*/::main      /* 0537 */,
+    S537::main      /* 0537 */,
     S538::main      /* 0538 */,
     S/*539*/::main      /* 0539 */,
     S540::main      /* 0540 */,

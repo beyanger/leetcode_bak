@@ -13,11 +13,6 @@ class Solution {
 public: 
 
 	string validIPAddress(string IP) {
-		int ipv4[4] = {0};
-
-		int n = sscanf(IP.c_str(), "%d,%d,%d,%d", ipv4, ipv4+1, ipv4+2, ipv4+3);
-
-
 
 
 

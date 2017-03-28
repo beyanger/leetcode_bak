@@ -15,12 +15,14 @@ TARGET = main
 all:$(TARGET)
 
 $(TARGET):$(OBJS)
-	$(CXX) $(CPPFLAGS) -o $@ $^
+	@echo "    [CC] $@"
+	@$(CXX) $(CPPFLAGS) -o $@ $^
 
 sinclude $(SOURCE:.cpp=.d)
 
 %.o:%.cpp
-	$(CXX) $(CPPFLAGS) -c $< -o $@  
+	@echo "    [CC] $@" 
+	@$(CXX) $(CPPFLAGS) -c $< -o $@  
 
 %.d:%.cpp
 	@set -e;\

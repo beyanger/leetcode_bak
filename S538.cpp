@@ -17,9 +17,7 @@ namespace S538 {
     };
 
 class Solution {
-
     void helper(TreeNode *root, int& sum) {
-        if (!root) return;
         if (root->right) helper(root->right, sum);
         root->val = (sum += root->val);
         if (root->left) helper(root->left, sum);
@@ -27,6 +25,8 @@ class Solution {
 
 public:
     TreeNode* convertBST(TreeNode* root) {
+		if (!root) return root;
+
         int sum = 0;
         helper(root, sum);
         return root;
