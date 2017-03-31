@@ -196,7 +196,7 @@ void show_solved_item() {
 #include "S.h" /* 0146 */
 #include "S.h" /* 0147 */
 #include "S.h" /* 0148 */
-#include "S.h" /* 0149 */
+#include "S149.h" /* 0149 */
 #include "S.h" /* 0150 */
 #include "S.h" /* 0151 */
 #include "S.h" /* 0152 */
@@ -494,7 +494,7 @@ void show_solved_item() {
 #include "S.h" /* 0444 */
 #include "S445.h" /* 0445 */
 #include "S.h" /* 0446 */
-#include "S.h" /* 0447 */
+#include "S447.h" /* 0447 */
 #include "S448.h" /* 0448 */
 #include "S449.h" /* 0449 */
 #include "S450.h" /* 0450 */
@@ -541,7 +541,7 @@ void show_solved_item() {
 #include "S.h" /* 0491 */
 #include "S492.h" /* 0492 */
 #include "S.h" /* 0493 */
-#include "S.h" /* 0494 */
+#include "S494.h" /* 0494 */
 #include "S495.h" /* 0495 */
 #include "S496.h" /* 0496 */
 #include "S.h" /* 0497 */
@@ -576,7 +576,7 @@ void show_solved_item() {
 #include "S.h" /* 0526 */
 #include "S.h" /* 0527 */
 #include "S.h" /* 0528 */
-#include "S.h" /* 0529 */
+#include "S529.h" /* 0529 */
 #include "S.h" /* 0530 */
 #include "S.h" /* 0531 */
 #include "S.h" /* 0532 */
@@ -1224,7 +1224,7 @@ solution_t solution_vec[1024] = {
     S/*146*/::main      /* 0146 */,
     S/*147*/::main      /* 0147 */,
     S/*148*/::main      /* 0148 */,
-    S/*149*/::main      /* 0149 */,
+    S149::main      /* 0149 */,
     S/*150*/::main      /* 0150 */,
     S/*151*/::main      /* 0151 */,
     S/*152*/::main      /* 0152 */,
@@ -1522,7 +1522,7 @@ solution_t solution_vec[1024] = {
     S/*444*/::main      /* 0444 */,
     S445::main      /* 0445 */,
     S/*446*/::main      /* 0446 */,
-    S/*447*/::main      /* 0447 */,
+    S447::main      /* 0447 */,
     S448::main      /* 0448 */,
     S449::main      /* 0449 */,
     S450::main      /* 0450 */,
@@ -1569,7 +1569,7 @@ solution_t solution_vec[1024] = {
     S/*491*/::main      /* 0491 */,
     S492::main      /* 0492 */,
     S/*493*/::main      /* 0493 */,
-    S/*494*/::main      /* 0494 */,
+    S494::main      /* 0494 */,
     S495::main      /* 0495 */,
     S496::main      /* 0496 */,
     S/*497*/::main      /* 0497 */,
@@ -1604,7 +1604,7 @@ solution_t solution_vec[1024] = {
     S/*526*/::main      /* 0526 */,
     S/*527*/::main      /* 0527 */,
     S/*528*/::main      /* 0528 */,
-    S/*529*/::main      /* 0529 */,
+    S529::main      /* 0529 */,
     S/*530*/::main      /* 0530 */,
     S/*531*/::main      /* 0531 */,
     S/*532*/::main      /* 0532 */,

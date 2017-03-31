@@ -10,12 +10,12 @@ CPPFLAGS += -std=c++11
 CPPFLAGS += -g 
 
 
-TARGET = main
+TARGET = main.bin
 
 all:$(TARGET)
 
 $(TARGET):$(OBJS)
-	@echo "    [CC] $@"
+	@echo "    [LD] $@"
 	@$(CXX) $(CPPFLAGS) -o $@ $^
 
 sinclude $(SOURCE:.cpp=.d)
