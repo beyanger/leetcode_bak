@@ -1,7 +1,7 @@
-#include "S449.h"
 #include <vector>
 #include <algorithm>
 #include <iostream>
+#include "main.h"
 
 using namespace std;
 
@@ -89,4 +89,7 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
+__attribute__((constructor)) static void init() { 
+	solution_vec[449] = main;
+}
 };

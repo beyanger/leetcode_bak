@@ -1,4 +1,3 @@
-#include "S115.h"
 
 #include <unordered_map>
 #include <algorithm>
@@ -9,6 +8,7 @@
 #include <vector>
 #include <list>
 
+#include "main.h"
 
 using namespace std;
 
@@ -48,5 +48,9 @@ int main(int argc, char *argv[]) {
 
 	return 0;
 }
+__attribute__((constructor)) static void init() { 
+	solution_vec[115] = main;
+}
+
 
 };

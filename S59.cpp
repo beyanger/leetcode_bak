@@ -1,10 +1,10 @@
-#include "S59.h"
 
 #include <stdio.h>
 #include <vector>
 #include <unordered_map>
 #include <algorithm>
 #include <iostream>
+#include "main.h"
 
 
 using namespace std;
@@ -52,5 +52,9 @@ int main(int argc, char *argv[]) {
 	}
 
 	return 0;
+}
+
+__attribute__((constructor)) static void init() { 
+	solution_vec[59] = main;
 }
 };

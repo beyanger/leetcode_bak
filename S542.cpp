@@ -1,10 +1,10 @@
 
 
-#include "S542.h"
 #include <vector>
 #include <algorithm>                
 #include <limits.h>
 #include <iostream>
+#include "main.h"
 
 using namespace std;
 
@@ -113,5 +113,8 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
+__attribute__((constructor)) static void init() { 
+	solution_vec[542] = main;
+}
 };
 

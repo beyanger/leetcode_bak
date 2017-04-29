@@ -1,5 +1,4 @@
 
-
 SOURCE = $(wildcard *.cpp)
 OBJS = $(patsubst %.cpp, %.o, $(SOURCE))
 
@@ -8,7 +7,6 @@ RM = rm -f
 
 CPPFLAGS += -std=c++11
 CPPFLAGS += -g 
-
 
 TARGET = main.bin
 
@@ -30,10 +28,7 @@ sinclude $(SOURCE:.cpp=.d)
 	sed 's/\($*\)\.o/\1.o $@/g' < $@.$$$$ > $@;\
 	rm -f $@.$$$$  
 
-
-
 .PHONY:clean
 clean:
 	$(RM) *.o *.d $(TARGET)
-
 

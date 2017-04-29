@@ -1,4 +1,3 @@
-#include "S113.h"
 
 #include <unordered_map>
 #include <algorithm>
@@ -8,11 +7,9 @@
 #include <deque>
 #include <vector>
 #include <list>
+#include "main.h"
 
-
-using namespace std;
-
-
+using namespace std; 
 namespace S113 {
 struct UndirectedGraphNode {
 	int label;
@@ -45,15 +42,14 @@ public:
 	}
 };
 
-
-
-
 int main(int argc, char *argv[]) {
 	Solution so;
 
 	return 0;
 }
 
-
+__attribute__((constructor)) static void init() { 
+	solution_vec[113] = main;
+}
 
 };

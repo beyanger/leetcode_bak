@@ -1,7 +1,7 @@
-#include "S461.h"
 #include <vector>
 #include <iostream>
 #include <algorithm>
+#include "main.h"
 
 using namespace std;
 
@@ -36,6 +36,10 @@ int main(int argc, char *argv[]) {
     cout << "hammingDistance is :" << hammingDistance << endl;
     
 	return 0;
+}
+
+__attribute__((constructor)) static void init() { 
+	solution_vec[461] = main;
 }
 
 };

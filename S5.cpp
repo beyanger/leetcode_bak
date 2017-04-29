@@ -1,8 +1,8 @@
-#include "S5.h"
 #include <vector>
 #include <iostream>
 #include <algorithm>
 #include <string>
+#include "main.h"
 
 
 using namespace std;
@@ -89,5 +89,8 @@ int main(int argc, char *argv[]) {
 	return 0;
 }
 
+__attribute__((constructor)) static void init() { 
+	solution_vec[5] = main;
+}
 
 };

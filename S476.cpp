@@ -1,7 +1,7 @@
-#include "S476.h"
 #include <vector>
 #include <iostream>
 #include <algorithm>
+#include "main.h"
 
 
 using namespace std;
@@ -47,5 +47,8 @@ int main(int argc, char *argv[]) {
 }
 
 
+__attribute__((constructor)) static void init() { 
+	solution_vec[476] = main;
+}
 
 };

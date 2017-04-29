@@ -1,7 +1,7 @@
-#include "S1.h"
 #include <vector>
 #include <iostream>
 #include <algorithm>
+#include "main.h"
 
 
 using namespace std;
@@ -49,9 +49,6 @@ public:
 
 
 int main(int argc, char *argv[]) {
-
-
-
 	S1::Solution so;
 	
 	vector<int> nums = {3, 2, 4};
@@ -60,9 +57,11 @@ int main(int argc, char *argv[]) {
 		cout << x[0] << " " << x[1] << endl;
 	
 	return 0;
-
 }
 
 
+__attribute__((constructor)) static void init() { 
+	solution_vec[1] = main;
+}
 
 };
