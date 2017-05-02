@@ -4,14 +4,12 @@
 import sys, os
 
 ccontent = '''
-
 #include <vector>
 #include <algorithm>                
 #include <iostream>
 #include "main.h"
 
 using namespace std;
-
 
 namespace S%s {
 
@@ -32,9 +30,7 @@ __attribute__((constructor)) static void init() {
 } 
 };
 
-
 '''%(sys.argv[1], sys.argv[1], sys.argv[1])
-
 
 def main():
 	if len(sys.argv) != 2:
@@ -45,7 +41,6 @@ def main():
 	if os.path.exists(cfile):
 		print 'question is exists'
 		return False
-
 	with open(cfile, 'w') as c:
 		c.write(ccontent)
 
